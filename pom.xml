@@ -118,7 +118,7 @@ Copyright (c) 2012 - Jeremy Long
         <apache.lucene.version>8.9.0</apache.lucene.version>
         <apache.ant.version>1.10.10</apache.ant.version>
         <slf4j.version>1.7.31</slf4j.version>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.2.13</logback.version>
         <!-- Note that Maven will use classes from the distro, ignoring declared dependencies for Maven core... -->
         <maven.api.version>3.1.0</maven.api.version>
         <reporting.checkstyle-plugin.version>3.1.2</reporting.checkstyle-plugin.version>
@@ -166,7 +166,7 @@ Copyright (c) 2012 - Jeremy Long
         <com.h3xstream.retirejs.core.version>3.0.2</com.h3xstream.retirejs.core.version>
         
         <!--necassary for some IDEs to be able to execute test cases (Netbeans)-->
-        <surefireArgLine />
+        <surefireArgLine/>
         
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
@@ -694,7 +694,7 @@ Copyright (c) 2012 - Jeremy Long
                             <target name="copy xsd to site">
                                 <copy todir="target/site/">
                                     <fileset dir="core/src/main/resources/schema/">
-                                        <include name="**/*.xsd" />
+                                        <include name="**/*.xsd"/>
                                     </fileset>
                                 </copy>
                             </target>
