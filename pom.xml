@@ -146,7 +146,7 @@ Copyright (c) 2012 - Jeremy Long
         <aho-corasick-double-array-trie.version>1.2.2</aho-corasick-double-array-trie.version>
         <junit.version>4.13.2</junit.version>
         <hamcrest-core.version>2.2</hamcrest-core.version>
-        <jackson.version>2.12.3</jackson.version>
+        <jackson.version>2.15.0</jackson.version>
         <jmockit.version>1.49</jmockit.version>
         <mockito-core.version>3.11.2</mockito-core.version>
         <jsoup.version>1.13.1</jsoup.version>
@@ -166,7 +166,7 @@ Copyright (c) 2012 - Jeremy Long
         <com.h3xstream.retirejs.core.version>3.0.2</com.h3xstream.retirejs.core.version>
         
         <!--necassary for some IDEs to be able to execute test cases (Netbeans)-->
-        <surefireArgLine />
+        <surefireArgLine/>
         
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
@@ -694,7 +694,7 @@ Copyright (c) 2012 - Jeremy Long
                             <target name="copy xsd to site">
                                 <copy todir="target/site/">
                                     <fileset dir="core/src/main/resources/schema/">
-                                        <include name="**/*.xsd" />
+                                        <include name="**/*.xsd"/>
                                     </fileset>
                                 </copy>
                             </target>
